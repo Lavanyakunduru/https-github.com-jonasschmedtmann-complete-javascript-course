@@ -1,29 +1,40 @@
 /*****************************
 * Variables and data types
 */
-/*
-var firstName = 'John';
-console.log(firstName);
 
-var lastName = 'Smith';
-var age = 28;
+// let firstName = 'John';
+// console.log(firstName);
 
-var fullAge = true;
-console.log(fullAge);
+// let lastName = 'Smith';
+// let age = 28;
 
-var job;
-console.log(job);
+// let fullAge = true;
+// console.log(fullAge);
 
-job = 'Teacher';
-console.log(job);
+// let job;
+// console.log(job);
 
-// Variable naming rules
-var _3years = 3;
-var johnMark = 'John and MArk';
-var if = 23;
-*/
+// job = 'Teacher';
+// console.log(job);
 
+// // Variable naming rules
+// let _3years = 3;
+// let johnMark = 'John and MArk';
+// //let if = 23;
 
+// let year;
+// console.log(year);
+// console.log(typeof year);
+
+// let, var, const
+
+// let can be changed -> reassigning, mutate
+
+// const can not be change
+
+// var to be avoided -> 
+// var job = "programmer"; 
+// job = "teacher";
 
 /*****************************
 * Variable mutation and type coercion
@@ -53,10 +64,13 @@ console.log(firstName + ' ' + lastName);
 
 
 
+
+
+
 /*****************************
 * Basic operators
 */
-/*
+
 var year, yearJohn, yearMark;
 now = 2018;
 ageJohn = 28;
@@ -84,7 +98,7 @@ console.log(typeof ageJohn);
 console.log(typeof 'Mark is older tha John');
 var x;
 console.log(typeof x);
-*/
+
 
 
 
@@ -137,6 +151,38 @@ Mark and John are trying to compare their BMI (Body Mass Index), which is calcul
 
 GOOD LUCK 😀
 */
+
+//Challange 1 - DONE
+
+console.log("============================")
+console.log("Challange 1 - basic")
+
+const massMark = 78
+const massJohn = 92
+
+const heightMark = 1.69
+const heightJohn = 1.95
+
+const MBIMark = massMark / (heightMark * heightMark)
+const MBIJohn = massJohn / (heightJohn * heightJohn)
+console.log(MBIMark, MBIJohn)
+
+const comparison = MBIMark > MBIJohn 
+console.log("Is Mark's BMI higher than John's?" + ' ' + comparison)
+
+console.log("============================")
+console.log("Challange 1 - advanced")
+
+if (comparison) {
+    console.log(`Mark's MBI is grater than John's as ${MBIMark} is grater than ${MBIJohn}`)
+} else {
+    console.log(`John's MBI is grater than Mark's as ${MBIJohn} is grater than ${MBIMark}`)
+}
+
+console.log("============================")
+
+
+
 /*
 var massMark = 78; // kg
 var heightMark = 1.69; // meters
@@ -191,6 +237,26 @@ if (BMIMark > BMIJohn) {
 }
 */
 
+const age = 15;
+ 
+
+if (age >= 18) {
+    console.log("Sara can start driving license")
+} else {
+    const yearsLEft = 18 - age
+    console.log(`Sara is to young, Wait anothe ${yearsLEft} years `)
+}
+
+
+const birthYear = 1991
+let century 
+if (birthYear <= 2000) {
+    century = 20
+} else {
+    century = 21
+}
+
+console.log(century)
 
 
 /*****************************
@@ -308,6 +374,11 @@ John and Mike both play basketball in different teams. In the latest 3 games, Jo
 
 GOOD LUCK 😀
 */
+
+
+
+
+
 /*
 var scoreJohn = (189 + 120 + 103) / 3;
 var scoreMike = (129 + 94 + 123) / 3;
