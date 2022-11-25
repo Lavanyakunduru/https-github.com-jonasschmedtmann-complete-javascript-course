@@ -375,8 +375,26 @@ John and Mike both play basketball in different teams. In the latest 3 games, Jo
 GOOD LUCK 😀
 */
 
+console.log("================================")
+console.log("Challange 3")
 
 
+const avrJohn = (89 + 200 + 103) / 3
+const avrMike = (129 + 94 + 123) /3
+console.log(`Avrage score form Mike team is ${avrMike}`)
+console.log(`Avrage score form John team is ${avrJohn}`)
+
+if (avrJohn < avrMike && avrMike > 100) {
+    console.log("Mike is the winner!!!")
+} else if (avrJohn > avrMike && avrJohn > 100) {
+    console.log("John is the winner!!!")
+} else if (avrJohn === avrMike && avrJohn > 100 && avrMike > 100) {
+    console.log("It is a draw!!!")
+} else {
+    console.log("There is no winner")
+}
+
+console.log("================================")
 
 
 /*
@@ -501,6 +519,23 @@ console.log(john.indexOf(23));
 var isDesigner = john.indexOf('designer') === -1 ? 'John is NOT a designer' : 'John IS a designer';
 console.log(isDesigner);
 */
+
+const age1 = 23
+
+const water = age1 >= 18 ? "wine" : "water"
+
+console.log(water)
+
+console.log("Challange ======================")
+
+bill = 275
+
+const tip = bill >= 50 && bill <= 300 ? 0.15*bill : 0.2*bill
+console.log(`The bill was ${bill}, the tip was ${tip} and the total value was ${bill + tip}`)
+
+
+console.log("======================")
+
 
 
 
