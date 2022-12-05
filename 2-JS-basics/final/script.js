@@ -375,26 +375,26 @@ John and Mike both play basketball in different teams. In the latest 3 games, Jo
 GOOD LUCK 😀
 */
 
-console.log("================================")
-console.log("Challange 3")
+// console.log("================================")
+// console.log("Challange 3")
 
 
-const avrJohn = (89 + 200 + 103) / 3
-const avrMike = (129 + 94 + 123) /3
-console.log(`Avrage score form Mike team is ${avrMike}`)
-console.log(`Avrage score form John team is ${avrJohn}`)
+// const avrJohn = (89 + 200 + 103) / 3
+// const avrMike = (129 + 94 + 123) /3
+// console.log(`Avrage score form Mike team is ${avrMike}`)
+// console.log(`Avrage score form John team is ${avrJohn}`)
 
-if (avrJohn < avrMike && avrMike > 100) {
-    console.log("Mike is the winner!!!")
-} else if (avrJohn > avrMike && avrJohn > 100) {
-    console.log("John is the winner!!!")
-} else if (avrJohn === avrMike && avrJohn > 100 && avrMike > 100) {
-    console.log("It is a draw!!!")
-} else {
-    console.log("There is no winner")
-}
+// if (avrJohn < avrMike && avrMike > 100) {
+//     console.log("Mike is the winner!!!")
+// } else if (avrJohn > avrMike && avrJohn > 100) {
+//     console.log("John is the winner!!!")
+// } else if (avrJohn === avrMike && avrJohn > 100 && avrMike > 100) {
+//     console.log("It is a draw!!!")
+// } else {
+//     console.log("There is no winner")
+// }
 
-console.log("================================")
+// console.log("================================")
 
 
 /*
@@ -520,21 +520,46 @@ var isDesigner = john.indexOf('designer') === -1 ? 'John is NOT a designer' : 'J
 console.log(isDesigner);
 */
 
-const age1 = 23
+// const age1 = 23
 
-const water = age1 >= 18 ? "wine" : "water"
+// const water = age1 >= 18 ? "wine" : "water"
 
-console.log(water)
+// console.log(water)
 
-console.log("Challange ======================")
+// console.log("Challange ======================")
 
-bill = 275
+// bill = 275
 
-const tip = bill >= 50 && bill <= 300 ? 0.15*bill : 0.2*bill
-console.log(`The bill was ${bill}, the tip was ${tip} and the total value was ${bill + tip}`)
+// const tip = bill >= 50 && bill <= 300 ? 0.15*bill : 0.2*bill
+// console.log(`The bill was ${bill}, the tip was ${tip} and the total value was ${bill + tip}`)
 
 
-console.log("======================")
+// console.log("======================")
+
+
+
+
+
+// console.log("======================")
+// console.log("Challange ======================")
+
+// const calcAverage = (a, b, c) => (a + b + c) / 3
+// const avrDolphins = calcAverage (44, 23, 71)
+// const avrKoalas = calcAverage(65, 54, 49)
+
+// function checkWinner(avrDolphins, avrKoalas) {
+//     if (avrDolphins >= (2 * avrKoalas)) {
+//         console.log(`Dolphins win ${avrDolphins} vs. ${avrKoalas}`)
+//     } else if (avrKoalas >= (2 * avrDolphins)) {
+//         console.log(`Koalas win ${avrKoalas} vs. ${avrDolphins}`)
+//     } else {
+//         console.log("No team wins")
+
+//     }
+// }
+// checkWinner(avrDolphins, avrKoalas)
+
+// console.log("======================")
 
 
 
@@ -614,6 +639,32 @@ jane['lastName'] = 'Smith';
 console.log(jane);
 */
 
+// const person = {
+//     firstName: 'Jonas',
+//     lastName: 'Afg',
+//     birthYear: 1890,
+//     friends: ['Michael', 'cdf', 'sdf'],
+//     bestFriend: 'Michael',
+//     driverLicense: true,
+
+//     calcAge: function (){
+//          this.age = 2022 - this.birthYear
+//             return this.age
+//     },
+
+//     summery: function () {
+//         return `${this.firstName} is a ${this.calcAge()} and has ${this.driverLicense ? 'a' : 'no'} driver license` 
+//     }
+
+// }
+
+// console.log(person.calcAge())
+// console.log(person.summery())
+// console.log(person.bestFriend)
+// // const bestFriend = person[friends[0]]
+// console.log(`${person.firstName} has ${person.friends.length} friends and his best friend is ${person.bestFriend}`)
+
+
 
 
 /*****************************
@@ -652,6 +703,81 @@ Remember: BMI = mass / height^2 = mass / (height * height). (mass in kg and heig
 
 GOOD LUCK 😀
 */
+
+
+// const mark = {
+//     fullName: 'Mark Miller',
+//     mass: 78,
+//     height: 1.69,
+
+//     calcBMI: function () {
+//         this.bmi = this.mass / this.height **2
+//         return this.bmi
+//     }
+// }
+
+// const john = {
+//     fullName: 'John Smith',
+//     mass: 92,
+//     height: 1.95,
+
+//     calcBMI: function () {
+//         this.bmi = this.mass / this.height **2
+//         return this.bmi
+//     }
+// }
+
+// console.log(john.calcBMI())
+// console.log(mark.calcBMI())
+ 
+// mark.calcBMI()
+// john.calcBMI()
+// // console.log(`${john.fullName}'s BMI (${john.bmi}) is lower than ${mark.fullName}'s BMI (${mark.bmi}) `)
+
+// if (mark.bmi > john.bmi) {
+//     console.log(`${mark.fullName}'s BMI (${mark.bmi}) is higher than ${john.fullName}'s BMI (${john.bmi})`)
+// } else if (john.bmi > mark.bmi) {
+//     console.log(`${john.fullName}'s BMI (${john.bmi}) is higher than ${mark.fullName}'s BMI (${mark.bmi})`)
+// }
+
+
+// console.log("--- FOR LOOPS ---")
+
+// const person1 = [
+//      'Jonas',
+//      'Mich',
+//      1890,
+//      ['Michael', 'Doe', 'Aslan']
+   
+// ]
+
+// console.log(person1[1])
+
+// for (let m = person1.length - 1; m >= 0; m--) {
+//     console.log(person1[m])
+// }
+
+console.log("----- Challange 4 -----")
+
+const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52]
+let tips = []
+let totals = []
+
+// const calcTip = bill >= 50 && bill <= 300 ? bill*0.15 : bill*0.2 
+
+for (i = 0; i < bills.length; i++) {
+    if (bills[i] >= 50 && bills[i] <= 300) {
+        tips.push(bills[i]*0.15)
+    } else {
+        tips.push(bills[i]*0.2)
+    }
+    totals.push(bills[i] + tips[i])
+}
+
+console.log(bills)
+console.log(tips)
+console.log(totals)
+
 /*
 var john = {
     fullName: 'John Smith',
